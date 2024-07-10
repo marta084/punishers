@@ -1,7 +1,7 @@
 // app/routes/index.jsx
 
 import { useState } from 'react';
-import { json } from '@remix-run/node';
+import { json } from '@remix-run/cloudflare';
 import { useLoaderData } from '@remix-run/react';
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';

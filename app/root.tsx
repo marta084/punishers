@@ -8,8 +8,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { useEffect } from "react";
-import { Workbox } from "workbox-window";
 import tailwindStyleSheet from './tailwind.css?url'
 
 export const links: LinksFunction = () => [
